@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<HEAD>
+	<TITLE>Site du projet</TITLE>
+	<meta charset="utf-8">
+		<META NAME="Auteur" CONTENT="Alex Da Cunha Tinoco">
+		<META NAME="Description" CONTENT="Formulaire">
+		<META NAME="Robots" CONTENT="index/noindex, follow/nofollow">
+		<META NAME="Owns" CONTENT="Alex Da Cunha Tinoco">
+		<META NAME="http.language" CONTENT="fr-FX">
+			<link rel="stylesheet" href="../CSS/pages.css">
+
+</HEAD>
+	
+<BODY>
+
+	<style>
+		.required:after {
+		  content:" *";
+		  color: red;
+		}
+	</style>
+
+	<h1><u>Formulaire d'inscription</u></h1>
+	<FORM action="mailto:alex.da-cunha-tinoco@edu.univ-eiffel.fr" method="post" enctype="text/plain" >
+		<p>
+			<h3>Etat civil</h3>
+
+			
+
+			<label for="nom" class="required">Nom :</label>
+			<input type="text" name="nom" id="nom" size="23" value="" required> 
+
+			<label for="prenom" class="required">Prénom :</label>
+			<input type="text" name="prenom" id="prenom" size="20" value="" required> <br><br>
+
+			<label for="sexe"> Sexe :</label>
+				<input type="radio" name="sexe" value="Homme"> Homme
+				<input type="radio" name="sexe" value="Femme"> Femme
+				<input type="radio" name="sexe" value="Autre"> Autre
+				<input type="radio" name="sexe" value="Non-précisé"> Non-précisé<br><br>
+
+			<label for="Tel">Télephone :</label>
+			<input type="text" name="Tel" size="15" value="">
+
+			<label for="Email" class="required">Email :</label>
+			<input type="text" name="Email" size="27" value="" required><br><br>
+
+			Date de naissance 	<label for="jour" class="required"></label>
+								<input name="jour" type="text" size="5" value="jj" maxlength="2" required>
+
+								<select name="mois" size="1" required >
+								<option selected disabled hidden > mois </option>
+								<option value="Janvier"> Janvier </option>
+								<option value="Février"> Février </option>
+								<option value="Mars"> Mars </option>
+								<option value="Avril"> Avril </option>
+								<option value="Juin"> Juin </option>
+								<option value="Juillet"> Juillet </option>
+								<option value="Août"> Août </option>
+								<option value="Septembre"> Septembre </option>
+								<option value="Octobre"> Octobre </option>
+								<option value="Novembre"> Novembre </option>
+								<option value="Décembre"> Décembre </option>
+								</select>
+
+								<input name="année" type="text" size="5" value="aaaa" maxlength="4" required> <br> <br>
+
+				<label for="doc" class="required"></label>
+				<input type="checkbox" name="doc" value="doc" required> Je reconnais avoir lu et compris les <a href="CGU.pdf" TARGET="_blank">CGU</a> et je les accepte.
+				<br><br>
+				<INPUT type="reset"> <INPUT type="submit" value="Envoyer">  (*) Champs obligatoires
+		</p>
+				
+		<h5>
+		Vous disposez d'un droit d'accès, de modification, de rectification et de suppression des <br>
+		données vous concernant selon la loi « Informatique et Libertés » du 6 janvier 1978. <br>
+		Pour toute demande, veuillez contacter le propriètaire du site.
+		</h5>
+			
+	</FORM>
+</BODY>

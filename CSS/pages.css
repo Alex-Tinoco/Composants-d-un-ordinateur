@@ -1,0 +1,64 @@
+BODY {
+    background-image: url(../Images/backmain.gif);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* LINKS */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+    font-size: 110%;
+    font-weight: 700;
+}
+
+a:active {
+    color: rgb(3, 97, 97);
+    font-size: 110%;
+    font-weight: 700;
+}
+
+/* ----------------------- */
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+p  {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.source {
+    font-size: 15px;
+    width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.imgcmp{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 50px;
+    border: 2px solid white;
+}
